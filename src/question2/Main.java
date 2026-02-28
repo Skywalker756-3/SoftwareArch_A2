@@ -1,3 +1,4 @@
+package question2;
 //  interface Subject
 interface TextSubject {
     void setContent(String newContent);
