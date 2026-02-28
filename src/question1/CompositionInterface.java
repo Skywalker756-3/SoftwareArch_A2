@@ -1,5 +1,5 @@
 package question1;
 
 public interface CompositionInterface {
-	public int getContent();
+	public double getValue();
 }
