@@ -38,9 +38,9 @@ public class Main {
         ListComponent list = builder.getList();
         if (list != null) {
             //uncomment the following line when taking a screenshot of the output
-            System.out.println();
+            //System.out.println();
             list.printValue();
-            System.out.println();
+            //System.out.println();
         }
     }
 }
