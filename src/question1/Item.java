@@ -1,5 +1,8 @@
-//I changed the class and method names to match up with the uml diagram
-//also fixed the logic a bit, constructive criticism is appreciated :D
+/*
+This is a leaf class of the composition structure,
+ listComponents can contain 
+ Items but items cannot contain listComponents
+*/
 
 package question1;
 
