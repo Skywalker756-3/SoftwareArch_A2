@@ -6,7 +6,7 @@ interface TextSubject {
 }
 
 // real Subject
-class Text implements TextSubject {
+public class Text implements TextSubject {
     private String content;
 
     @Override
@@ -21,7 +21,7 @@ class Text implements TextSubject {
 }
 
 // read Only Proxy
-class ReadOnlyTextProxy implements TextSubject {
+public class ReadOnlyTextProxy implements TextSubject {
     private final TextSubject realText;
 
     public ReadOnlyTextProxy(TextSubject realText) {
@@ -40,7 +40,7 @@ class ReadOnlyTextProxy implements TextSubject {
 }
 
 // write Only Proxy
-class WriteOnlyTextProxy implements TextSubject {
+public class WriteOnlyTextProxy implements TextSubject {
     private final TextSubject realText;
 
     public WriteOnlyTextProxy(TextSubject realText) {
@@ -59,7 +59,7 @@ class WriteOnlyTextProxy implements TextSubject {
 }
 
 // read / write Proxy
-class ReadWriteTextProxy implements TextSubject {
+public class ReadWriteTextProxy implements TextSubject {
     private final TextSubject realText;
 
     public ReadWriteTextProxy(TextSubject realText) {
