@@ -1,3 +1,9 @@
+/*
+This is the aggregation of a composite architecture
+It's able to contain objects that extend the ListComponent,
+namely Items and itself
+*/
+
 package question1;
 
 import java.util.ArrayList;

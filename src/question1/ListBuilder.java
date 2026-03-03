@@ -3,6 +3,11 @@ the following are the methods used as per the UML Diagram
 1. buildOpenBranket()
 2. buildCloseBracket()
 3. buildElement()
+
+Using the methods of this class
+clients can build their list and 
+potentially it's sublists, utilizing the 
+composite architecture
  */
 
 
@@ -20,7 +25,6 @@ public class ListBuilder {
 
     public void buildOpenBracket() {
         ListComposite composite = new ListComposite();
-        
         // If this is the very much the first bracket, it's our root
         if (root == null) {
             root = composite;
